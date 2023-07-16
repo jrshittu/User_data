@@ -37,7 +37,7 @@ def new_user():
         users[create_login] = create_passkey
         print("\nUser Created!\n")
         logins = open("/Users/Zayn/Documents/User_data/Hello.txt", "a")
-        logins.write("\n" + "Username: " + create_login + ", Password: " + create_passkey + ", Joined on: " + time.asctime())
+        logins.write("\n" + "Username: " + create_login + ", Password: " + create_passkey)
         logins.close()
     
 def current_user():
